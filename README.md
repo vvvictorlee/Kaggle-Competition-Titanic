@@ -27,22 +27,22 @@ The sinking of the RMS Titanic is one of the most infamous shipwrecks in history
 
 ####  Machine Learning Algorithms Implementations from scratch
 *   Implementing algorithms including 
-   +    Naive Bayers
-   +    Decision Tree
-   +    Perceptron
-   +    K-means and K-modes with KNN 
+      - Naive Bayers
+      - Decision Tree
+      - Perceptron
+      - K-means and K-modes with KNN 
 *   Compare results using accuracy
 
 ####  Data Analysis using SciKit-Learn
 *    Supervised Machine learning Techniques:
-    +   Random Forest 
-    +   Decison Tree
-    +   Support Vector Machine (SVM)
-    +   KNN
-    +   Naive Bayers
-    +   Perceptron
-    +   SGD
-    +   Logistic Regression
+      - Random Forest 
+      - Decison Tree
+      - Support Vector Machine (SVM)
+      - KNN
+      - Naive Bayers
+      - Perceptron
+      - SGD
+      - Logistic Regression
 
 ####  Valuation of the Analysis
 *   K-folds cross validation to valuate results locally
