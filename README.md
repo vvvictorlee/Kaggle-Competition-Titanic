@@ -1,4 +1,4 @@
-# Kaggle-Competition-Titanic
+# Kaggle-Competition-Titanic (The code is coming very soon)
 
 This is a project in an IPython Notebook for the Kaggle competition, Titanic Machine Learning From Disaster. The goal of this repository is to implement classic machine learning algorithms from scratch and also to provide a comparative analysis using SciKit-Learn for the people who are interested in machine learning.
 
