@@ -39,7 +39,7 @@ The sinking of the RMS Titanic is one of the most infamous shipwrecks in history
       - Decison Tree
       - Support Vector Machine (SVM)
       - KNN
-      - Naive Bayers
+      - Naive Bayers (both Gaussian and Multinominal)
       - Perceptron
       - SGD
       - Logistic Regression
