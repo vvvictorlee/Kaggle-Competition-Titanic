@@ -45,7 +45,7 @@ def buildtree(rows,func=entropy):
     if len(rows)==0:
         return decisionnode()
     info_D = func(rows)
-    best_GR=0.0
+    best_gain=0.0
     best_pair=None
     best_sets=None
     from math import log
@@ -59,15 +59,12 @@ def buildtree(rows,func=entropy):
             if p == 0 or p == 1:
                 continue
             infoa_D = p*(func(set1))+(1-p)*(func(set2))
-            IG = info_D-infoa_D
-            splitinfoa_D = abs(p*(log2(p))+(1-p)*log2(1-p))
-            GR = IG/splitinfoa_D
-            #set must not be empty
-            if GR > best_GR and len(set1)> 0 and len(set2) > 0:
-                best_GR = GR
+            gain = info_D-infoa_D
+            if gain > best_gain and len(set1)> 0 and len(set2) > 0:
+                best_gain = gain
                 best_pair = (col, value)
                 best_sets = (set1, set2)
-    if best_GR > 0:
+    if best_gain > 0:
         trueBranch = buildtree(best_sets[0])
         falseBranch = buildtree(best_sets[1])
         return decisionnode(col=best_pair[0], value=best_pair[1], tb = trueBranch, fb=falseBranch)
