@@ -91,8 +91,14 @@ The sinking of the RMS Titanic is one of the most infamous shipwrecks in history
 
 Our Implementations on Kaggle Leaderboard
 
+<img src="https://github.com/emoryjianghang/Kaggle-Competition-Titanic/blob/master/Table1.png" width="500">
+
 All Sklearn Models on Training Dataset
 
+<img src="https://github.com/emoryjianghang/Kaggle-Competition-Titanic/blob/master/Table2.png" width="500">
+
 Top 5 Sklearn Models on Kaggle Leaderboard
+
+<img src="https://github.com/emoryjianghang/Kaggle-Competition-Titanic/blob/master/Table3.png" width="500">
 
 Competition Website: http://www.kaggle.com/c/titanic-gettingStarted
