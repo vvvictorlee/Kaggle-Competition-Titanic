@@ -29,6 +29,7 @@ After downloading the files above, you can go to the project directory and open 
 3. `test.csv`: original test data.
 4. `test_processed.csv`: transformed test data
 5. `gender_submission.csv`: the format to submit predictions to Kaggle Leaderboard, the Survival labels in this file are not real, they are just randomly filled in to show the format. 
+6. `titanic.csv`: the submission file to Kaggle Leaderboard
 
 **Dependent models: our implementations**
 
