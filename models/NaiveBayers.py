@@ -40,7 +40,7 @@ def test(classes, attributes, test_rows, actual):
                 best_p = p
                 best_class = c
         predictions.append(best_class)
-    return evaluate_accuracy(actual, predictions)
+    return predictions
 
 
 
